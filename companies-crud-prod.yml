@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: debuggeandoideas-prod
+    hikari:
+      maximum-pool-size: 5
+      connection-timeout: 20000
+    url: jdbc:postgresql://localhost:5432/companies
+    password: udemy123
+  application:
+    name: companies-crud
